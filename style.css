@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+}
+
+
+.container {
+	background: #fff;
+  	display: flex;
+  	justify-content: center;
+}
+
+.clock {
+	background: linear-gradient(#330, #990);
+	border: 4px solid #000;
+	display: inline-flex;
+	border-radius: 30px;
+}
+
+.clock div	{
+	color: #fff;
+	display: inline;
+	padding: 5px 10px ;
+	font-size: 100px;
+	font-family: monospace;
+	}
+
+.min {
+	border-right: 4px solid #000;
+	border-left: 4px solid #000;
+}
+
+
+
